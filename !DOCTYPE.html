@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack da Mega Sena - Descubra o Próximo Número!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .btn-hack {
+            background: #ffeb3b;
+            color: #333;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.8em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .btn-hack:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+            background: #ffd700;
+        }
+
+        .btn-hack:active {
+            transform: translateY(0);
+        }
+
+        .aviso {
+            margin-top: 30px;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 HACK SECRETO DA MEGA SENA 🔥</h1>
+    <button class="btn-hack" onclick="revelarSegredo()">Clique Aqui e Descubra o próximo Número da Mega Sena</button>
+    <p class="aviso">💎 Tecnologia exclusiva - 100% garantido! 💎</p>
+
+    <script>
+        function revelarSegredo() {
+            // COLE AQUI A URL DO VÍDEO QUE DESEJA ABRIR
+            const urlVideo = "https://buceteiro.com/video-porno-do-tadala-fellas-e-rafa-martinz/";
+            
+            // Abre em nova aba/guia
+            window.open(urlVideo, '_blank');
+            
+            // Efeito visual no botão
+            const btn = document.querySelector('.btn-hack');
+            btn.textContent = '🚀 PROCESSANDO HACK...';
+            btn.style.background = '#00ff00';
+            
+            setTimeout(() => {
+                btn.textContent = 'Clique Aqui e Descubra o próximo Número da Mega Sena';
+                btn.style.background = '#ffeb3b';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
